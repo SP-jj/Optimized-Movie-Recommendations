@@ -1,0 +1,7 @@
+# Ignore data files
+*.tsv
+*.zip
+*.parquet
+input/
+# Never commit your API token
+kaggle.json
