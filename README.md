@@ -24,4 +24,4 @@ This project uses a Kaggle dataset.
 	kaggle datasets download -d <ashirwadsangwan/imdb-dataset> -p ./input --unzip
 
 5. Run The Script:
-	python src/main.py
+	python main.py
