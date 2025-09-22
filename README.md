@@ -1,3 +1,27 @@
-IMPORTANT: 
- - need to download datasets at https://www.kaggle.com/datasets/ashirwadsangwan/imdb-dataset/data?select=name.basics.tsv and put them in Optimized-Movie-Recommendations/data before running
- - need to have a solver installed on machine
+ # Optimized-Movie-Recommendations
+
+This project uses a Kaggle dataset.  
+**Note**: The dataset itself is *not included* in this repo because of Kaggle’s license terms.
+
+---
+
+## Setup
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/SP-jj/Optimized-Movie-Recommendations.git
+   cd Optimized-Movie-Recommendations
+
+2. Install Requirements:
+	pip install -r requirements.txt
+
+3. Authenticate Kaggle:
+	Go to Kaggle Account Settings
+	Click "Create API Token" → it downloads kaggle.json.
+	Place it in ~/.kaggle/kaggle.json.
+
+4. Download The Dataset:
+	kaggle datasets download -d <ashirwadsangwan/imdb-dataset> -p ./input --unzip
+
+5. Run The Script:
+	python src/main.py
